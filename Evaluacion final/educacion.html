@@ -2,9 +2,109 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Educación</title>
   </head>
   <body>
+    <header>
+			<svg>
+				<image xlink:href="images/logo.svg" width="160px" height="160px" x="20px" y="20px"></image>
+			</svg>
+			<h2>Hoja de Vida.</h2>
+			<h2>Luis Alfonso Rosales Ospina.</h2>
+			<h3>Fecha y lugar de nacimiento: 23 de Marzo de 1988, Barranquilla Colombia.</h3>
+  </header>
+	<nav>
+		<ul>
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="educacion.html">Educación</a></li>
+		<li><a href="experiencia.html">Experiencia</a></li>
+	</ul>
+	</nav>
+  <section>
+    <article>
+   <h2>Educación.</h2>
+     <table border="1">
+     <thead>
+      <tr>
+        <th>AÑO</th>
+        <th>INSTITUCIÓN</th>
+        <th>LUGAR</th>
+        <th>¿CULMINÓ?</th>
+      </tr>
+     </thead>
+     <tbody>
+     <tr>
+       <td>2012</td>
+       <td>Academia de Arte y Cultura del Caribe</td>
+       <td>B/quilla</td>
+       <td>SÍ</td>
+     </tr>
+     <tr>
+       <td>2010</td>
+       <td>Universidad Autonoma del Caribe</td>
+       <td>B/quilla</td>
+       <td>5 Semestres</td>
+     </tr>
+     </tbody>
+  <tfoot>
+     <tr>
+       <td>2006</td>
+       <td>Colegio María Inmaculada</td>
+       <td>B/quilla</td>
+       <td>SÍ</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Sistemas Henry Dakcar</td>
+      <td>B/quilla</td>
+      <td>SÍ</td>
+   </tr>
+  </tfoot>
+     </table>
+    </article>
+    <article>
+      <h2>Agregar Estudios.</h2>
+      <form action="">
+      <p>
+        <label for="Año"><strong>Año:</strong> </label>
+        <br>
+        <select name="Año">
+          <option value="1">2017</option>
+          <option value="1">2016</option>
+          <option value="1">2015</option>
+          <option value="1">2014</option>
+          <option value="1">2013</option>
+        </select>
+      </p>
+      <p>
+			<label for="institucion" ><strong>Institución:</strong> </label>
+			<br>
+			<input type="text" name="institucion" autofocus required>
+		</p>
+    <p>
+			<label for="lugar">Lugar: </label>
+			<br>
+			<textarea name="comment" id="" cols="30" rows="2"></textarea>
+		</p>
+    <p>
+			<label for="culmino"><strong>¿Culminó?:</strong> </label>
+			<br>
+			<input type="radio" name="culmino"> SÍ
+			<br>
+			<input type="radio" name="culmino"> NO
+		</p>
+    <p><br/>
+          <input type="submit">
+        </p>
+        </form>
+    </article>
+    <footer>Email:<a href="mailto:luismago1320@gmail.com?subject=feedback">luismago1320@gmail.com</a>  Twitter:<a href="https://twitter.com/lucho_rosales" target="_blank">@Lucho_rosales</a>  Instagram:<a href="https://www.instagram.com/lrosales23/">@Lrosales23</a></footer>
+
+
+
+  </section>
+
 
   </body>
 </html>
